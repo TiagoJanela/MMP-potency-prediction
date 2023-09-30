@@ -13,8 +13,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import GridSearchCV
 
-from regression_shap_mmp.ML.ml_utils_reg import tanimoto_from_dense
-from regression_shap_mmp.sveta.sveta.svm import ExplainingSVR
+from ML.ml_utils_reg import tanimoto_from_dense
+from sveta.sveta.svm import ExplainingSVR
 
 os.environ["TF_DETERMINISTIC_OPS"] = "1"
 warnings.filterwarnings('ignore')

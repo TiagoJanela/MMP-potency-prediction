@@ -1,6 +1,6 @@
-from regression_shap_mmp.sveta.sveta.kernel import tanimoto_similarity_sparse
-from regression_shap_mmp.sveta.sveta.kernel import sveta_f_plus
-from regression_shap_mmp.sveta.sveta.kernel import sveta_f_minus
+from sveta.sveta.kernel import tanimoto_similarity_sparse
+from sveta.sveta.kernel import sveta_f_plus
+from sveta.sveta.kernel import sveta_f_minus
 
 import abc
 import numpy as np

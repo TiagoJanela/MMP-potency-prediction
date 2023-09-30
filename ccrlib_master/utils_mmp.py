@@ -5,8 +5,7 @@ import numpy as np
 import pandas as pd
 from rdkit import DataStructs
 
-from regression_shap_mmp.ML.ml_utils_reg import ECFP4
-
+from ML.ml_utils_reg import ECFP4
 
 def DelOnlyRatom(df, return_delidx=False):
     """
@@ -229,3 +228,4 @@ def get_df_mmp(mms_final, random_state=42):
             mmp_final_df = pd.concat([mmp_final_df, *mmp_rows])
 
     return mmp_final_df
+
